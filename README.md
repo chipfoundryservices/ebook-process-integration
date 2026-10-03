@@ -4,7 +4,7 @@
 This volume provides an exhaustive, research-grade engineering dissection of semiconductor process integration across Front-End (FEOL), Middle-of-Line (MOL), and Back-End (BEOL) architectures.
 
 ## Repository Contents
-- **`PREFACE.md`**: Charlie Munger's Inversion Principle applied to process integration.
+- **`PREFACE.md`**: The First-Principles Inversion Framework applied to process integration.
 - **`chapters/`**: 8 comprehensive technical chapters covering FEOL transistor formation, MOL contact engineering, BEOL multilevel copper interconnects, Backside Power Delivery Networks (BSPDN), GAA nanosheet flow, yield learning curves, DTCO, and foundry gross margin moats.
 - **`appendices/`**: Complete engineering glossary, mathematical derivations (RC delay, Schottky barrier tunneling, yield learning models), integration specifications, and portfolio links.
 - **`book12-database-updates.sql`**: Production database keywords for MariaDB (CFS) and PostgreSQL (AMEM).

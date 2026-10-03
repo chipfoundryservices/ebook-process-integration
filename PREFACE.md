@@ -6,7 +6,7 @@ In microelectronics, you can possess the world's most advanced EUV lithography s
 
 **Process Integration is the ultimate synthesis of physics, chemistry, thermodynamics, and electrical engineering.** It is the discipline that bridges atom-scale material science and circuit-level computer architecture.
 
-Following Charlie Munger's inversion principle, we ask: *How do you destroy a $20\text{B}$ advanced logic fab through integration failure?*
+Following The First-Principles Inversion Framework, we ask: *How do you destroy a $20\text{B}$ advanced logic fab through integration failure?*
 
 ### 1. Thermal Budget Cannibalization
 Every time a wafer is heated to activate source/drain dopants or anneal a dielectric, previously deposited layers experience thermal stress. If front-end thermal budgets are mismanaged, gate workfunction metals interdiffuse, silicide contacts agglomerate, and shallow junctions smear, destroying transistor drive current.
