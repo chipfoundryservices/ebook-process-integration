@@ -1,71 +1,23 @@
-# Book #12: Process Integration & Selectivity Engineering
-## Advanced Etch Selectivity, Cross-Chip Variation Control, and the Economics of Precision at Scale
+# Book #12: Semiconductor Process Integration
+### From Transistor Gate to Backside Power Delivery (BSPDN), DTCO & Yield Learning
 
-**Book #12 in the ChipFoundryServices Technical Series**
+This volume provides an exhaustive, research-grade engineering dissection of semiconductor process integration across Front-End (FEOL), Middle-of-Line (MOL), and Back-End (BEOL) architectures.
 
----
-
-## Overview
-
-*Process Integration & Selectivity Engineering* explores the critical interface where plasma etch physics meets wafer-scale manufacturing reality. After mastering fundamental plasma science and materials interactions, this book addresses the highest-value engineering challenge: maintaining nanometer-scale etch precision across 300mm wafers, multiple process chambers, fab clusters, and years of equipment operation.
-
-This book combines:
-- **Selectivity fundamentals** (etch rate ratios, endpoint detection, process windows)
-- **Cross-wafer uniformity** (plasma non-uniformities, chamber seasoning, thermal management)
-- **Equipment integration** (cluster tools, load locks, gas delivery optimization)
-- **Manufacturing economics** (yield learning curves, fab productivity, capex optimization)
-- **Capital allocation** (process development costs, fab automation, service economics)
-
----
+## Repository Contents
+- **`PREFACE.md`**: Charlie Munger's Inversion Principle applied to process integration.
+- **`chapters/`**: 8 comprehensive technical chapters covering FEOL transistor formation, MOL contact engineering, BEOL multilevel copper interconnects, Backside Power Delivery Networks (BSPDN), GAA nanosheet flow, yield learning curves, DTCO, and foundry gross margin moats.
+- **`appendices/`**: Complete engineering glossary, mathematical derivations (RC delay, Schottky barrier tunneling, yield learning models), integration specifications, and portfolio links.
+- **`book12-database-updates.sql`**: Production database keywords for MariaDB (CFS) and PostgreSQL (AMEM).
 
 ## Chapters
-
-1. Selectivity Engineering — Etch Rate Ratios and Stopping Layers
-2. Plasma Uniformity & Wafer-Scale Variation
-3. Chamber Seasoning and Long-Term Stability
-4. Thermal Management and Temperature Control
-5. Gas Delivery Systems and Supply Line Integration
-6. Endpoint Detection and Selective Etch Completeness
-7. Advanced Process Control (APC) and Real-Time Optimization
-8. Process Window Mapping and Design of Experiments (DOE)
-
----
-
-## Target Audience
-
-- Process integration engineers
-- Fab operations and yield management teams
-- Equipment suppliers and semiconductor OEMs
-- Supply chain strategists evaluating process complexity
-- Capital equipment investors analyzing fab productivity
+1. **Chapter 1: Front-End-of-Line (FEOL): Transistor Formation & RMG Flow**
+2. **Chapter 2: Middle-of-Line (MOL): Contact Engineering & Self-Aligned Vias**
+3. **Chapter 3: Back-End-of-Line (BEOL): Multilevel Interconnects & Low-k Integration**
+4. **Chapter 4: Backside Power Delivery Networks (BSPDN): Architecture & Physics**
+5. **Chapter 5: Gate-All-Around (GAAFET) Nanosheet Full Integration Flow**
+6. **Chapter 6: Defect Density Integration & Exponential Yield Learning Curves**
+7. **Chapter 7: Design-Technology Co-Optimization (DTCO) & Standard Cell Scaling**
+8. **Chapter 8: Capital Allocation: Integration Complexity & Foundry Economic Moats**
 
 ---
-
-## File Organization
-
-```
-book-12-process-integration/
-├── README.md
-├── PREFACE.md
-├── chapters/
-│   ├── 01-selectivity-engineering.md
-│   ├── 02-plasma-uniformity.md
-│   ├── 03-chamber-seasoning.md
-│   ├── 04-thermal-management.md
-│   ├── 05-gas-delivery.md
-│   ├── 06-endpoint-detection.md
-│   ├── 07-advanced-process-control.md
-│   └── 08-process-window-mapping.md
-└── appendices/
-    ├── glossary.md
-    ├── mathematical-derivations.md
-    ├── equipment-specs.md
-    └── knowledge-base-links.md
-```
-
----
-
-**Book #12 in Series:** Follows Books #1-11 in the ChipFoundryServices Technical Series
-**Last Updated:** October 3, 2026
-**Status:** Complete Manuscript
-
+*Part of the 13-Volume Semiconductor Engineering & Capital Allocation Series.*
